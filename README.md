@@ -14,7 +14,7 @@ Nesse projeto, foi feito um modelo de machine learning usando a Regressão Logí
 
 ---
 ## Descrição do problema
-...
+Um banco quer desenvolver uma solução, utilizando machine learning, para prever se um cliente vai dar churn ou não.
 
 ---
 ## Análise Exploratória
@@ -35,8 +35,20 @@ Link dataset: https://www.kaggle.com/datasets/saurabhbadole/bank-customer-churn-
 
 ---
 ## Modelagem
-...
+Para construir a solução foram testados os seguintes modelos:
+- Logistic Regression
+- Decision Tree Classifier
+- XGBoost Classifier
+- Random Forest Classifier  
+
+Para medir qual modelo teve a melhor performance, foram utilizadas métricas e técnicas, como a validação cruzada.  
+
+O modelo que performou melhor foi a Random Forest Classifier, com os seguintes resultados:
+
+![metrics_rd](src/metrics_rd.png)
+![cm_rd](src/cm_rd.png)
+
 
 ---
 ## Conclusão
-...
+O objetivo desse projeto, era desenvolver uma solução usando machine learning para prever se um cliente do banco vai dar churn ou não. O modelo que desempenhou a melhor performance foi o Random Forest Classifier.
