@@ -45,7 +45,8 @@ Para medir qual modelo teve a melhor performance, foram utilizadas métricas e t
 
 O modelo que performou melhor foi a Random Forest Classifier, com os seguintes resultados:
 
-![metrics_rd](src/metrics_rd.png)
+![metrics_rd](src/metrics_rd.png)  
+
 ![cm_rd](src/cm_rd.png)
 
 
